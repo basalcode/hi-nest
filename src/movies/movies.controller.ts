@@ -6,6 +6,8 @@ import {
   Delete,
   Patch,
   Body,
+  Req,
+  Res,
   Query,
 } from '@nestjs/common';
 import { MoviesService } from './movies.service';
